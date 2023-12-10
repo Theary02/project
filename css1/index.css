@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300&family=Hanuman:wght@700&family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat:ital,wght@0,500;1,600;1,700&family=Roboto:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.nav-item{
+    padding: 10px !important;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+.button{
+    width: 65px;
+    height: 30px;
+    border: 2px solid white;
+}
+.text{
+    width: 38%;
+    height: 250px;
+    top: 40%;
+    left: 4%;
+    font-size: x-large;
+}
+.text-1{
+    font-size: larger;
+}
+.text-2{
+    font-size: larger;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: #4D6079;
+}
+a:hover{
+    color: green;
+}
+.narrow{
+    border-radius: 5px;
+    margin-top: 10%;
+    background-color: #4D6079;
+}
+.icon:hover{
+    color: greenyellow;
+}
+.box{
+    width: 95%;
+    box-shadow: 2px 2px 10px rgb(137, 135, 135);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.hand-in{
+    margin-top: 20% ;
+    margin-left: 10%;
+}
+.small-box:hover{
+    background-color: #50AF31;
+}
+.small-box{
+    margin: 20px 0px;
+}
+button{
+   height: 40px;
+   border: 2px solid #9D9D9D;
+   border-radius: 5px;
+   margin: 15px 15px;
+}
+.col-12{
+    margin: 10px 0px;
+}
+.box-1{
+    width: 100%;
+    box-shadow: 2px 2px 10px rgb(137, 135, 135);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.col-6{
+    margin: 10px 0px;
+}
+
+
+ /* X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+/* for phone */
+@media (max-width: 575px) {
+    .text{
+        width: 95%;
+    }
+    .box{
+        margin: 10px auto;
+    }
+    .box-1{
+        margin: 10px 5px;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+    .text{
+        width: 95%;
+    }
+    .box{
+        width: 100%;
+        margin: 15px auto;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .text{
+        width: 95%;
+    }
+    .box{
+        width: 100%;
+        margin: 15px auto;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+    .text{
+        width: 50%;
+    }
+    .box{
+        width: 100%;
+        margin: 15px auto;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) and (max-width: 767px){ } */
